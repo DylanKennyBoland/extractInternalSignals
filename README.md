@@ -8,6 +8,10 @@ The script accepts the name of the Verilog module file. An example of how the sc
 A list of all the internal wires and registers is written to a file with the following format:
 
     "<module_name>_internal_signals.txt"
+
+The internal signals and their dimensions are also written in CSV (comma-separated-values) format to
+a .csv file with the following format:
+	"<module_name>_internal_signals.csv"
     
 Tip: You can add an alias to your ~/.aliases file that will point to the script - e.g.:
 
