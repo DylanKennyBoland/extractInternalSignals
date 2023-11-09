@@ -88,7 +88,7 @@ if __name__ == "__main__":
             print(fileReadError)
             exit()
     
-    # ==== Define that Patterns that we will use to extract the relevant information ====
+    # ==== Define the Patterns that we will use to extract the relevant information ====
     # Note: The patterns for extracting the internal wire and register signals use an idea called
     # "negative lookbehind".
     #
